@@ -16,7 +16,7 @@ const removeClass = (color) => document.body.classList.remove(color);
 const setStorageThemeLight = () => localStorage.setItem('currentTheme', Theme.LIGHT);
 const setStorageThemeDark = () => localStorage.setItem('currentTheme', Theme.DARK);
 
-// Проверка localStorage на наличие светлой/темной темы
+// Проверка localStorage на наличие светлой/тёмной темы
 storageThemeRequire();
 
 // Слушатель на чекбокс

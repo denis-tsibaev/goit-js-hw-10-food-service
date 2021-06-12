@@ -1,4 +1,4 @@
-import menuCard from '../partials/menu-item.hbs';
+import menuCard from '../templates/menu-cards.hbs';
 import menuItems from './menu.json';
 
 const menu = document.querySelector('.js-menu')

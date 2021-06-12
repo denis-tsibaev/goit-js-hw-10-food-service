@@ -1,4 +1,5 @@
+import './JS/color-theme.js';
+import './JS/menu-list.js';
 import './sass/main.scss';
 
-import './js/menu-build.js';
-import './js/color-theme-switch.js';
+
