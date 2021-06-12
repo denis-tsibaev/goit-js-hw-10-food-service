@@ -1,9 +1,9 @@
 const Theme = {
-	LIGHT: 'light-theme',
-	DARK: 'dark-theme',
-  };
+  LIGHT: 'light-theme',
+  DARK: 'dark-theme',
+};
 
-  // Селектор переключателя тем
+// Селектор переключателя тем
 const checkboxTheme = document.querySelector('#theme-switch-toggle')
 
 
@@ -52,3 +52,4 @@ function changeThemeColor() {
     checkboxTheme.setAttribute('checked', 'checked');
   }
 }
+
