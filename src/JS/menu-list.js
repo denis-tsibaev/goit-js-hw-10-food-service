@@ -4,8 +4,8 @@ import menuItems from './menu.json';
 const menu = document.querySelector('.js-menu')
 const addMenuList = createMenuList(menuItems);
 
-function createMenuList(arr) {
-    return arr.map(menuCard).join('')
+function createMenuList(array) {
+    return array.map(menuCard).join('')
 }
 
 menu.insertAdjacentHTML('beforeend', addMenuList)
